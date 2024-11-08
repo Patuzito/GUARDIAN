@@ -44,3 +44,18 @@ function mostrarSetaDepoisParar() {
 window.addEventListener('scroll', mostrarSetaDepoisParar);
 
 
+// Função para exibir o texto correspondente ao botão clicado
+function displayText(step) {
+    const displayArea = document.getElementById("display-area3");
+    
+    // Conteúdo para cada etapa
+    const stepContent = {
+        1: "Tire uma foto do problema ou, se for muito detalhado, descreva o problema em palavras.",
+        2: "Veremos o problema e discutiremos qual a melhor opção para melhorar o seu dispositivo, seja Software ou Hardware.",
+        3: "Faremos todos os ajustes e diremos ao usuário o dia e a hora específica para retirar sua máquina."
+    };
+
+    // Atualizar o conteúdo da área de exibição
+    displayArea.textContent = stepContent[step];
+}
+
