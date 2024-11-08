@@ -15,6 +15,8 @@ body {
     
 }
 
+/* Header */
+
 .header {
     position: fixed;
     top: 0;
@@ -68,7 +70,7 @@ body {
     margin-top: 10px;
 }
 
-
+/* Page 1 */
 
 .content {
     display: flex;
@@ -153,8 +155,6 @@ body {
 }
 
 
-
-
 /* IMPORTANTE */
 
 .hidden {
@@ -164,7 +164,6 @@ body {
 .visivel {
     opacity: 1;
 }
-
 
 .seta-baixo {
     width: 0;
@@ -217,7 +216,7 @@ body {
     
 }
 
-/* PAGINA2 */
+/* Page 2 */
 
 .pag2  {
     margin-bottom: 0;
@@ -276,7 +275,7 @@ body {
 
 
 
-/* PAGINA3 */
+/* Page 3 */
 
 
 
@@ -352,14 +351,7 @@ body {
     font-size: 0.9em;
 }
 
-
-
-
-
-
-
-/* ULTIMAPAGINA */
-
+/* Final Page */
 
 .conteudoF {
     font-family: Arial, sans-serif;
@@ -420,7 +412,8 @@ body {
     background-color: #870000;
 }
 
-/* FOROOTER */
+/* Footer */
+
 .conteudofinal {
     text-align: center;
     padding: 50px 20px; 
